@@ -45,7 +45,3 @@ if __name__ == '__main__':
     tweets = get_all_tweets('realDonaldTrump')
     tweet_times = get_tweet_times(tweets)
     plot_activity(tweet_times)
-
-
-
-
